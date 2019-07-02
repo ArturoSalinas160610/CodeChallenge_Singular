@@ -1,0 +1,12 @@
+<resources>
+    <!-- Shrinking spaces for dense mode. Non-dense value here. Default value in values/ for dense mode -->
+
+    <dimen name="space_s_dense_xs">@dimen/space_s</dimen>
+    <dimen name="space_l_dense_s">@dimen/space_l</dimen>
+    <dimen name="space_xl_dense_m">@dimen/space_xl</dimen>
+
+    <!-- Image size in Prompt Screen -->
+    <dimen name="prompt_screen_image_width">168dp</dimen>
+    <dimen name="prompt_screen_image_heigth">169dp</dimen>
+
+</resources>

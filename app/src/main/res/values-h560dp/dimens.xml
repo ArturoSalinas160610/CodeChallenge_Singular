@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Usages -->
+    <dimen name="usage_chart_height">156dp</dimen>
+    <dimen name="usage_graph_key_top_margin">@dimen/space_xxs</dimen>
+</resources>

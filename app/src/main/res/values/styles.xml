@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="WeatherTextView">
+        <item name="android:textSize">@dimen/text_default</item>
+    </style>
+
+
+    <style name="WeatherTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorControlNormal">@color/control_color_normal</item>
+        <item name="colorControlActivated">@color/control_color_activated</item>
+        <item name="colorControlHighlight">@color/control_color_highlighted</item>
+
+        <item name="actionBarTheme">@style/WeatherActionBarTheme</item>
+        <item name="toolbarStyle">@style/WeatherToolBar</item>
+
+    </style>
+
+    <style name="WeatherTextView.LandingTitle">
+        <item name="android:textSize">60sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="WeatherTextView.LandingDescription">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="WeatherActionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="toolbarStyle">@style/WeatherToolBar</item>
+        <item name="actionBarStyle">@style/WeatherToolBar</item>
+    </style>
+
+
+    <style name="WeatherToolBar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/accent</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:theme">@style/WeatherActionBarTheme</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <item name="titleTextColor">@color/text_color_inverse</item>
+    </style>
+
+    <style name="WeatherButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/background_button_primary_default</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:padding">@dimen/space_s</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="WeatherButton.Primary"/>
+
+    <style name="WeatherButton.Primary.Sticky">
+        <item name="android:background">@drawable/background_button_primary_sticky</item>
+    </style>
+
+    <style name="WeatherButton.Primary.CardTop">
+        <item name="android:background">@drawable/background_button_primary_card_top</item>
+    </style>
+
+    <style name="WeatherButton.Primary.CardBottom">
+        <item name="android:background">@drawable/background_button_primary_card_bottom</item>
+    </style>
+
+    <style name="WeatherButton.Secondary">
+        <item name="android:background">@drawable/background_button_secondary_default</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="WeatherButton.Secondary.Sticky">
+        <item name="android:background">@drawable/background_button_secondary_sticky</item>
+    </style>
+
+    <style name="WeatherTextView.Tiny">
+        <item name="android:textSize">@dimen/text_tiny</item>
+    </style>
+
+    <style name="WeatherTextView.Tiny.WarmGray">
+        <item name="android:textColor">@color/warm_gray</item>
+    </style>
+
+    <!-- Landing -->
+    <style name="LandingSpacer">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">@dimen/landing_light_text_spacer_height</item>
+        <item name="android:background">@color/lighter_gray</item>
+    </style>
+    <style name="WeatherTextView.Label">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+    <style name="WeatherTextView.Label.Small">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="WeatherTextView.Weather">
+        <item name="android:textSize">80sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="WeatherTextView.Large">
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="WeatherTextView.Large.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

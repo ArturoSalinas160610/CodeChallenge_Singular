@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">codeChallengeSngular</string>
+
+    <string name="login_hello">Hello,</string>
+    <string name="description">Welcome to the Weather App.</string>
+    <string name="login_sign_in">Sign In</string>login_sign_in
+    <string name="login_register">Register</string>
+    <string name="login_support">Support</string>
+    <string name="login_terms">Terms of Use</string>
+    <string name="login_privacy">Privacy</string>
+
+    <!-- Bottom Navigation -->
+    <string name="bottom_nav_actual">Actual</string>
+    <string name="bottom_nav_next_days">Next Days</string>
+    <string name="bottom_nav_settings">Settings</string>
+
+    <!-- List CardView-->
+    <string name="day">Monday</string>
+    <string name="minTemp">MinTemp</string>
+    <string name="maxTemp">MaxTemp</string>
+
+    <string name="settings">Thanks for give me the opportunity \n to apply for this position \n Regards!</string>
+    <string name="general_string">%s</string>
+</resources>

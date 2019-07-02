@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Actual -->
+    <dimen name="overview_vertical_margin">@dimen/space_xxl</dimen>
+    <dimen name="overview_status_min_height">@dimen/space_l</dimen>
+    <dimen name="overview_payment_button_top_margin">@dimen/space_s</dimen>
+
+    <!-- Usages -->
+    <dimen name="usage_chart_height">226dp</dimen>
+    <dimen name="usage_graph_key_top_margin">@dimen/space_s</dimen>
+
+    <!-- Outages -->
+    <dimen name="outage_title_top_margin">@dimen/space_m</dimen>
+    <dimen name="outage_report_button_bottom_margin">@dimen/space_l</dimen>
+</resources>

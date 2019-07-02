@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/primary_button_disabled" android:state_enabled="false" />
+    <item>
+        <ripple android:color="@color/primary_button_ripple">
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="@dimen/corner_radius_default" android:bottomRightRadius="@dimen/corner_radius_default" />
+                    <solid android:color="@color/background_default" />
+                    <padding android:bottom="@dimen/space_s" android:left="@dimen/space_s" android:right="@dimen/space_s" android:top="@dimen/space_s" />
+                    <stroke android:width="@dimen/border_width_default" android:color="@color/card_border_gray" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

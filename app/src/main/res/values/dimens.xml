@@ -1,0 +1,72 @@
+<resources>
+    <!-- Palette begin -->
+
+    <dimen name="space_xxs">4dp</dimen>
+    <dimen name="space_xs">8dp</dimen>
+    <dimen name="space_s">16dp</dimen>
+    <dimen name="space_m">24dp</dimen>
+    <dimen name="space_l">32dp</dimen>
+    <dimen name="space_xl">48dp</dimen>
+    <dimen name="space_xxl">64dp</dimen>
+    <!-- Shrinking spaces for dense mode. Default value here for dense mode. Non-dense value in values-sw360dp -->
+    <dimen name="space_s_dense_xs">@dimen/space_xs</dimen>
+    <dimen name="space_l_dense_s">@dimen/space_s</dimen>
+    <dimen name="space_xl_dense_m">@dimen/space_m</dimen>
+
+    <dimen name="outage_status_height">408dp</dimen>
+
+    <!-- Image size in Prompt Screen -->
+    <dimen name="prompt_screen_image_width">124dp</dimen>
+    <dimen name="prompt_screen_image_heigth">125dp</dimen>
+
+    <!-- TODO We don't have a standard set of text sizes defined yet per design, so these may need to change in the future -->
+    <dimen name="text_tiny">12sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_default">17sp</dimen>
+    <dimen name="text_medium">22sp</dimen>
+    <dimen name="text_large">32sp</dimen>
+
+    <!-- Palette end -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="corner_radius_default">8dp</dimen>
+    <dimen name="corner_radius_small">2dp</dimen>
+    <dimen name="border_width_default">1dp</dimen>
+
+    <dimen name="header_vertical_margin">40dp</dimen>
+
+    <dimen name="first_login_line_spacing">4dp</dimen>
+    <dimen name="title_text_size">22sp</dimen>
+
+    <dimen name="landing_light_terms_width">146dp</dimen>
+    <dimen name="landing_light_text_spacer_height">47dp</dimen>
+    <dimen name="landing_light_text_bottom_margin">32dp</dimen>
+    <dimen name="landing_signin_card_radius">12dp</dimen>
+
+    <dimen name="bill_detail_indicator_width">42dp</dimen>
+    <dimen name="account_selector_elevation">6dp</dimen>
+
+    <dimen name="outage_progress_margin">@dimen/space_xxs</dimen>
+
+    <dimen name="overview_content_top">120dp</dimen>
+
+    <integer name="max_character_credit_card_name_length">50</integer>
+
+
+    <!-- Small Screen Sizes -->
+
+    <!-- Actual -->
+    <dimen name="overview_vertical_margin">@dimen/space_l</dimen>
+    <dimen name="overview_status_min_height">@dimen/space_xs</dimen>
+    <dimen name="overview_payment_button_top_margin">@dimen/space_xs</dimen>
+
+    <!-- Next -->
+    <dimen name="usage_chart_height">176dp</dimen>
+    <dimen name="usage_graph_key_top_margin">@dimen/space_xs</dimen>
+
+    <!-- Outages -->
+    <dimen name="outage_title_top_margin">@dimen/space_s</dimen>
+    <dimen name="outage_report_button_bottom_margin">@dimen/space_m</dimen>
+</resources>

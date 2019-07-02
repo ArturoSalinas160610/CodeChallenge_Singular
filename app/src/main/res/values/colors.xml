@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="brand_primary">#284e36</color>
+    <color name="brand_secondary">#0099cc</color>
+    <color name="brand_contrast">@color/brand_secondary</color>
+    <!-- Palette Begin -->
+    <color name="almost_black">#2B3A44</color>
+    <color name="dark_gray">#616365</color>
+    <color name="gray">#7E8082</color>
+    <color name="warm_gray">#767676</color>
+    <color name="darker_light_gray">#939596</color>
+    <color name="lighter_dark_gray">#929292</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#AAB0B4</color>
+    <color name="lighter_gray">#BCBEC0</color>
+    <color name="lightest_gray">#CDCDCD</color>
+    <color name="gray_almost_white">#dfe4e7</color>
+    <color name="very_light_gray">#E6E7E8</color>
+    <color name="almost_white">#F6F6F6</color>
+    <color name="almost_white_darker">#F1F2F2</color>
+    <color name="middle_gray">#D1D3D4</color>
+    <color name="mid_gray">#a7a9ac</color>
+    <color name="dark_blue_gray">#566169</color>
+    <color name="blue_gray">#899faa</color>
+
+    <color name="transparent_white">#80ffffff</color>
+    <color name="translucent_white">#b3ffffff</color>
+    <color name="translucent_black">#de000000</color>
+    <color name="translucent_grey">#80A7A9AC</color>
+
+    <color name="blue">#146AFF</color>
+    <color name="deep_red">#BE1E2A</color>
+    <color name="navy_blue">#003150</color>
+    <color name="orange">#F0AB00</color>
+    <color name="green">#69aa1d</color>
+    <!-- Palette end -->
+
+    <!-- TODO Convert most of the rest of these to attrs so it's easier to switch out themes for white-labeling -->
+    <color name="primary">@color/dark_gray</color>
+    <color name="primary_dark">@color/almost_black</color>
+    <color name="accent">@color/brand_primary</color>
+    <color name="disabled">@color/light_gray</color>
+    <color name="control_color_normal">@color/lighter_gray</color>
+    <color name="control_color_activated">@color/accent</color>
+    <color name="control_color_highlighted">@color/accent</color>
+
+    <!-- Text colors begin -->
+    <color name="text_color_default">@color/primary</color>
+    <color name="text_color_dark">@color/primary_dark</color>
+    <color name="text_color_disabled">@color/disabled</color>
+    <color name="text_color_inverse">@color/white</color>
+    <color name="text_color_destructive">@color/deep_red</color>
+    <color name="text_color_subtitle">@color/mid_gray</color>
+    <color name="text_color_disabled_toolbar">@color/transparent_white</color>
+    <!-- Text colors end -->
+
+    <!-- Button colors begin -->
+    <color name="primary_button_enabled">@color/accent</color>
+    <color name="primary_button_disabled">@color/middle_gray</color>
+    <color name="primary_button_ripple">#19000000</color>
+    <color name="secondary_button_disabled">@color/middle_gray</color>
+    <color name="secondary_button_ripple">@color/almost_white_darker</color>
+    <!-- Button colors end -->
+
+    <!-- Next progress bar colors begin -->
+    <color name="usage_progress_bar_fill">@color/almost_white</color>
+    <color name="usage_progress_bar_border">@color/lightest_gray</color>
+    <color name="usage_progress_start">@color/brand_secondary</color>
+    <color name="usage_progress_end">@color/accent</color>
+    <!-- Next progress bar colors end -->
+
+    <!-- Payment status colors -->
+    <color name="bill_details_positive_status_color">#4f8723</color>
+    <color name="bill_details_negative_status_color">@color/deep_red</color>
+    <!-- Payment status colors end -->
+
+    <!-- Toggle colors -->
+    <color name="toggle_track_on">#899faa</color>
+    <color name="toggle_track_off">#d8d8d8</color>
+    <color name="toggle_thumb_on">@color/white</color>
+    <color name="toggle_thumb_off">#f2f2f2</color>
+    <!-- Toggle colors end-->
+
+    <color name="background_default">@color/white</color>
+    <color name="background_darker">@color/almost_white</color>
+    <color name="divider_gray">@color/very_light_gray</color>
+    <color name="divider_darker">#d8d8d8</color>
+    <color name="card_border_gray">@color/very_light_gray</color>
+    <color name="error_red">@color/deep_red</color>
+    <color name="outage_progress_bar_active">@color/accent</color>
+    <color name="outage_progress_bar_inactive">@color/very_light_gray</color>
+    <color name="clickable_text_link">@color/blue</color>
+    <color name="card_buttons_separator">@color/lightest_gray</color>
+    <color name="bill_details_color_underline">@color/gray</color>
+    <color name="overview_color_underline">@color/gray</color>
+    <color name="payment_history_automatic_payment">@color/blue_gray</color>
+    <color name="disabled_gray">@color/lighter_dark_gray</color>
+    <color name="loading_spinner">@color/accent</color>
+</resources>
